@@ -1,0 +1,5 @@
+name: tutorial
+
+entry_points:
+  main:
+    command: "python /Users/swkim/projects/MLOps-study/app/api/router/train_iris.py"

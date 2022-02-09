@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/swkim/projects/MLOps-study/mlruns/1/f310fbbdce804c33b821a0c6b40ef7ee/artifacts
+end_time: 1644430800802
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: f310fbbdce804c33b821a0c6b40ef7ee
+run_uuid: f310fbbdce804c33b821a0c6b40ef7ee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1644430800774
+status: 4
+tags: []
+user_id: swkim
