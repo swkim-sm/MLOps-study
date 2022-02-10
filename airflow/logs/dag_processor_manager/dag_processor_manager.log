@@ -1,0 +1,1041 @@
+[2022-02-11 00:06:00,609] {manager.py:504} INFO - Processing files using up to 1 processes at a time 
+[2022-02-11 00:06:00,609] {manager.py:505} INFO - Process each file at most once every 30 seconds
+[2022-02-11 00:06:00,609] {manager.py:506} INFO - Checking for new files in /Users/swkim/projects/MLOps-study/airflow/dags every 300 seconds
+[2022-02-11 00:06:00,609] {manager.py:653} INFO - Searching for files in /Users/swkim/projects/MLOps-study/airflow/dags
+[2022-02-11 00:06:00,617] {manager.py:656} INFO - There are 33 files in /Users/swkim/projects/MLOps-study/airflow/dags
+[2022-02-11 00:06:00,647] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:06:00,647] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:01:00.647179+00:00
+[2022-02-11 00:06:11,785] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:06:11,786] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:01:11.786930+00:00
+[2022-02-11 00:06:22,643] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:06:22,644] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:01:22.644824+00:00
+[2022-02-11 00:06:30,081] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               0           0
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   0           0
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  0           0
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             0           0
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           0           0
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             0           0
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  0           0
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             0           0
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               0           0
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       0           0
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              0           0
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  0           0
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         0           0
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.63s           2022-02-10T15:06:10
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.66s           2022-02-10T15:06:09
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.75s           2022-02-10T15:06:19
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.64s           2022-02-10T15:06:28
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.74s           2022-02-10T15:06:03
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.64s           2022-02-10T15:06:07
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.68s           2022-02-10T15:06:26
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.69s           2022-02-10T15:06:04
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.68s           2022-02-10T15:06:21
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.81s           2022-02-10T15:06:01
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.68s           2022-02-10T15:06:05
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.67s           2022-02-10T15:06:30
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.65s           2022-02-10T15:06:18
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.74s           2022-02-10T15:06:14
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.64s           2022-02-10T15:06:25
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.64s           2022-02-10T15:06:15
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.66s           2022-02-10T15:06:16
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.74s           2022-02-10T15:06:12
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.67s           2022-02-10T15:06:23
+================================================================================
+[2022-02-11 00:06:33,456] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:06:33,457] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:01:33.457048+00:00
+[2022-02-11 00:06:43,630] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:06:43,631] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:01:43.631309+00:00
+[2022-02-11 00:06:54,519] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:06:54,520] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:01:54.519989+00:00
+[2022-02-11 00:07:00,344] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.64s           2022-02-10T15:06:35
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.63s           2022-02-10T15:06:10
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.66s           2022-02-10T15:06:09
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.66s           2022-02-10T15:06:34
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.75s           2022-02-10T15:06:19
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.65s           2022-02-10T15:06:42
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.64s           2022-02-10T15:06:28
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.75s           2022-02-10T15:06:55
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.65s           2022-02-10T15:07:00
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.70s           2022-02-10T15:06:51
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.68s           2022-02-10T15:06:26
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.65s           2022-02-10T15:06:46
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.65s           2022-02-10T15:06:56
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.65s           2022-02-10T15:06:47
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.68s           2022-02-10T15:06:21
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.75s           2022-02-10T15:06:53
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.66s           2022-02-10T15:06:58
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.67s           2022-02-10T15:06:30
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.69s           2022-02-10T15:06:32
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.65s           2022-02-10T15:06:18
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.75s           2022-02-10T15:06:40
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.74s           2022-02-10T15:06:14
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.66s           2022-02-10T15:06:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.64s           2022-02-10T15:06:25
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.64s           2022-02-10T15:06:15
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.64s           2022-02-10T15:06:37
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.69s           2022-02-10T15:06:44
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.66s           2022-02-10T15:06:49
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.64s           2022-02-10T15:06:31
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.66s           2022-02-10T15:06:16
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.65s           2022-02-10T15:06:39
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.74s           2022-02-10T15:06:12
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.67s           2022-02-10T15:06:23
+================================================================================
+[2022-02-11 00:07:04,770] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:07:04,771] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:02:04.771023+00:00
+[2022-02-11 00:07:15,343] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:07:15,344] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:02:15.344693+00:00
+[2022-02-11 00:07:25,535] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:07:25,536] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:02:25.536413+00:00
+[2022-02-11 00:07:31,205] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.63s           2022-02-10T15:07:31
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.64s           2022-02-10T15:07:03
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.69s           2022-02-10T15:07:02
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.64s           2022-02-10T15:07:29
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.76s           2022-02-10T15:07:14
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.65s           2022-02-10T15:06:42
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.64s           2022-02-10T15:07:22
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.75s           2022-02-10T15:06:55
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.65s           2022-02-10T15:07:00
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.70s           2022-02-10T15:06:51
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.66s           2022-02-10T15:07:21
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.65s           2022-02-10T15:06:46
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.65s           2022-02-10T15:06:56
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.65s           2022-02-10T15:06:47
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.69s           2022-02-10T15:07:16
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.75s           2022-02-10T15:06:53
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.66s           2022-02-10T15:06:58
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.67s           2022-02-10T15:07:24
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.65s           2022-02-10T15:07:27
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.65s           2022-02-10T15:07:12
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.75s           2022-02-10T15:06:40
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.79s           2022-02-10T15:07:07
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.66s           2022-02-10T15:06:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.68s           2022-02-10T15:07:19
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.69s           2022-02-10T15:07:09
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.64s           2022-02-10T15:06:37
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.69s           2022-02-10T15:06:44
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.66s           2022-02-10T15:06:49
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.64s           2022-02-10T15:07:26
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.70s           2022-02-10T15:07:10
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.65s           2022-02-10T15:06:39
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.80s           2022-02-10T15:07:05
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.66s           2022-02-10T15:07:17
+================================================================================
+[2022-02-11 00:07:35,616] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:07:35,617] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:02:35.617560+00:00
+[2022-02-11 00:07:45,914] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:07:45,917] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:02:45.917000+00:00
+[2022-02-11 00:07:56,837] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:07:56,838] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:02:56.838341+00:00
+[2022-02-11 00:08:02,625] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.63s           2022-02-10T15:07:31
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.63s           2022-02-10T15:07:55
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.64s           2022-02-10T15:07:53
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.64s           2022-02-10T15:07:29
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.76s           2022-02-10T15:07:14
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.67s           2022-02-10T15:07:38
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.64s           2022-02-10T15:07:22
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.74s           2022-02-10T15:07:46
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.64s           2022-02-10T15:07:51
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.70s           2022-02-10T15:06:51
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.66s           2022-02-10T15:07:21
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.65s           2022-02-10T15:07:41
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.66s           2022-02-10T15:07:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.65s           2022-02-10T15:07:43
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.69s           2022-02-10T15:07:16
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.75s           2022-02-10T15:07:44
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.66s           2022-02-10T15:07:50
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.67s           2022-02-10T15:07:24
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.65s           2022-02-10T15:07:27
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.63s           2022-02-10T15:08:02
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.74s           2022-02-10T15:07:36
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.76s           2022-02-10T15:07:57
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.66s           2022-02-10T15:06:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.68s           2022-02-10T15:07:19
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.65s           2022-02-10T15:07:59
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.67s           2022-02-10T15:07:32
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.65s           2022-02-10T15:07:39
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.66s           2022-02-10T15:06:49
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.64s           2022-02-10T15:07:26
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.64s           2022-02-10T15:08:00
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.66s           2022-02-10T15:07:34
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.74s           2022-02-10T15:07:55
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.66s           2022-02-10T15:07:17
+================================================================================
+[2022-02-11 00:08:07,699] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:08:07,700] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:03:07.700082+00:00
+[2022-02-11 00:08:17,981] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:08:17,985] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:03:17.985148+00:00
+[2022-02-11 00:08:28,768] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:08:28,770] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:03:28.770842+00:00
+[2022-02-11 00:08:33,081] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.64s           2022-02-10T15:08:24
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.63s           2022-02-10T15:07:55
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.64s           2022-02-10T15:07:53
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.68s           2022-02-10T15:08:22
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.74s           2022-02-10T15:08:08
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.67s           2022-02-10T15:07:38
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.74s           2022-02-10T15:08:16
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.74s           2022-02-10T15:08:33
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.64s           2022-02-10T15:07:51
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.68s           2022-02-10T15:08:06
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.66s           2022-02-10T15:08:15
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.65s           2022-02-10T15:07:41
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.66s           2022-02-10T15:07:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.65s           2022-02-10T15:07:43
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.64s           2022-02-10T15:08:10
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.74s           2022-02-10T15:08:31
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.66s           2022-02-10T15:07:50
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.68s           2022-02-10T15:08:18
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.67s           2022-02-10T15:08:21
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.63s           2022-02-10T15:08:02
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.75s           2022-02-10T15:08:29
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.76s           2022-02-10T15:07:57
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.63s           2022-02-10T15:08:04
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.67s           2022-02-10T15:08:13
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.65s           2022-02-10T15:07:59
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.68s           2022-02-10T15:08:26
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.65s           2022-02-10T15:07:39
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.64s           2022-02-10T15:08:05
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.67s           2022-02-10T15:08:19
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.64s           2022-02-10T15:08:00
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.64s           2022-02-10T15:08:27
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.74s           2022-02-10T15:07:55
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.65s           2022-02-10T15:08:11
+================================================================================
+[2022-02-11 00:08:39,166] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:08:39,167] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:03:39.167497+00:00
+[2022-02-11 00:08:49,598] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:08:49,599] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:03:49.599786+00:00
+[2022-02-11 00:08:59,860] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:08:59,862] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:03:59.862846+00:00
+[2022-02-11 00:09:03,903] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.64s           2022-02-10T15:08:24
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.63s           2022-02-10T15:08:41
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.64s           2022-02-10T15:08:39
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.68s           2022-02-10T15:08:22
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.76s           2022-02-10T15:08:58
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.68s           2022-02-10T15:08:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.74s           2022-02-10T15:08:16
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.74s           2022-02-10T15:08:33
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.68s           2022-02-10T15:08:38
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.68s           2022-02-10T15:08:06
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.66s           2022-02-10T15:08:15
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.69s           2022-02-10T15:08:52
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.65s           2022-02-10T15:08:34
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.64s           2022-02-10T15:08:53
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.64s           2022-02-10T15:09:00
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.74s           2022-02-10T15:08:31
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.64s           2022-02-10T15:08:36
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.68s           2022-02-10T15:08:18
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.67s           2022-02-10T15:08:21
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.65s           2022-02-10T15:08:57
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.75s           2022-02-10T15:08:29
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.80s           2022-02-10T15:08:45
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.63s           2022-02-10T15:08:04
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.66s           2022-02-10T15:09:03
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.69s           2022-02-10T15:08:46
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.68s           2022-02-10T15:08:26
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.67s           2022-02-10T15:08:50
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.64s           2022-02-10T15:08:05
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.67s           2022-02-10T15:08:19
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.65s           2022-02-10T15:08:55
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.64s           2022-02-10T15:08:27
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.80s           2022-02-10T15:08:43
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.66s           2022-02-10T15:09:02
+================================================================================
+[2022-02-11 00:09:10,025] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:09:10,027] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:04:10.027014+00:00
+[2022-02-11 00:09:20,202] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:09:20,204] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:04:20.204086+00:00
+[2022-02-11 00:09:30,720] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:09:30,723] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:04:30.723052+00:00
+[2022-02-11 00:09:34,838] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.64s           2022-02-10T15:09:15
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.65s           2022-02-10T15:09:33
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.65s           2022-02-10T15:09:31
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.64s           2022-02-10T15:09:14
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.76s           2022-02-10T15:08:58
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.68s           2022-02-10T15:08:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.67s           2022-02-10T15:09:07
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.76s           2022-02-10T15:09:24
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.67s           2022-02-10T15:09:29
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.65s           2022-02-10T15:09:20
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.67s           2022-02-10T15:09:05
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.69s           2022-02-10T15:08:52
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.71s           2022-02-10T15:09:26
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.64s           2022-02-10T15:08:53
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.64s           2022-02-10T15:09:00
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.84s           2022-02-10T15:09:22
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.70s           2022-02-10T15:09:27
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.67s           2022-02-10T15:09:08
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.64s           2022-02-10T15:09:12
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.65s           2022-02-10T15:08:57
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.75s           2022-02-10T15:08:29
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.80s           2022-02-10T15:08:45
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.74s           2022-02-10T15:09:17
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.66s           2022-02-10T15:09:03
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.69s           2022-02-10T15:08:46
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.68s           2022-02-10T15:08:26
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.67s           2022-02-10T15:08:50
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.69s           2022-02-10T15:09:19
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.63s           2022-02-10T15:09:10
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.65s           2022-02-10T15:08:55
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.64s           2022-02-10T15:08:27
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.74s           2022-02-10T15:09:34
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.66s           2022-02-10T15:09:02
+================================================================================
+[2022-02-11 00:09:41,071] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:09:41,072] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:04:41.072323+00:00
+[2022-02-11 00:09:51,627] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:09:51,628] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:04:51.628314+00:00
+[2022-02-11 00:10:01,926] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:10:01,928] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:05:01.928461+00:00
+[2022-02-11 00:10:05,928] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.64s           2022-02-10T15:09:15
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.65s           2022-02-10T15:09:33
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.65s           2022-02-10T15:09:31
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.64s           2022-02-10T15:09:14
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.77s           2022-02-10T15:09:52
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.73s           2022-02-10T15:09:45
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.66s           2022-02-10T15:10:00
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.76s           2022-02-10T15:09:24
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.67s           2022-02-10T15:09:29
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.65s           2022-02-10T15:09:20
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.67s           2022-02-10T15:09:59
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.69s           2022-02-10T15:08:52
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.71s           2022-02-10T15:09:26
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.64s           2022-02-10T15:08:53
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.69s           2022-02-10T15:09:54
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.84s           2022-02-10T15:09:22
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.70s           2022-02-10T15:09:27
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.65s           2022-02-10T15:10:02
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.64s           2022-02-10T15:10:05
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.73s           2022-02-10T15:09:50
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.79s           2022-02-10T15:09:43
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.74s           2022-02-10T15:09:36
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.74s           2022-02-10T15:09:17
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.65s           2022-02-10T15:09:57
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.69s           2022-02-10T15:09:38
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.69s           2022-02-10T15:09:40
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.67s           2022-02-10T15:09:47
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.69s           2022-02-10T15:09:19
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.64s           2022-02-10T15:10:04
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.69s           2022-02-10T15:09:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.75s           2022-02-10T15:09:41
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.74s           2022-02-10T15:09:34
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.67s           2022-02-10T15:09:55
+================================================================================
+[2022-02-11 00:10:12,044] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:10:12,049] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:05:12.049300+00:00
+[2022-02-11 00:10:22,545] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:10:22,546] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:05:22.546409+00:00
+[2022-02-11 00:10:33,120] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:10:33,123] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:05:33.122970+00:00
+[2022-02-11 00:10:37,382] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.64s           2022-02-10T15:10:09
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.66s           2022-02-10T15:10:26
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.65s           2022-02-10T15:10:24
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.67s           2022-02-10T15:10:07
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.77s           2022-02-10T15:09:52
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.73s           2022-02-10T15:09:45
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.66s           2022-02-10T15:10:00
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.80s           2022-02-10T15:10:18
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.67s           2022-02-10T15:10:23
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.65s           2022-02-10T15:09:20
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.67s           2022-02-10T15:09:59
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.68s           2022-02-10T15:10:11
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.68s           2022-02-10T15:10:19
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.67s           2022-02-10T15:10:12
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.69s           2022-02-10T15:09:54
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.75s           2022-02-10T15:10:16
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.74s           2022-02-10T15:10:21
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.65s           2022-02-10T15:10:02
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.64s           2022-02-10T15:10:05
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.73s           2022-02-10T15:09:50
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.79s           2022-02-10T15:10:37
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.82s           2022-02-10T15:10:30
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.66s           2022-02-10T15:10:14
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.65s           2022-02-10T15:09:57
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.77s           2022-02-10T15:10:32
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.67s           2022-02-10T15:10:33
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.67s           2022-02-10T15:09:47
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.69s           2022-02-10T15:09:19
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.64s           2022-02-10T15:10:04
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.69s           2022-02-10T15:09:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.73s           2022-02-10T15:10:35
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.79s           2022-02-10T15:10:28
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.67s           2022-02-10T15:09:55
+================================================================================
+[2022-02-11 00:10:44,123] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:10:44,127] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:05:44.126981+00:00
+[2022-02-11 00:10:55,648] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:10:55,649] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:05:55.649339+00:00
+[2022-02-11 00:11:01,733] {manager.py:653} INFO - Searching for files in /Users/swkim/projects/MLOps-study/airflow/dags
+[2022-02-11 00:11:01,760] {manager.py:656} INFO - There are 34 files in /Users/swkim/projects/MLOps-study/airflow/dags
+[2022-02-11 00:11:06,818] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:11:06,819] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:06:06.819909+00:00
+[2022-02-11 00:11:07,880] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.64s           2022-02-10T15:11:02
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.66s           2022-02-10T15:10:26
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.65s           2022-02-10T15:10:24
+/Users/swkim/projects/MLOps-study/airflow/dags/hello_world.py                                                                                                 1           0  1.04s           2022-02-10T15:11:07
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.67s           2022-02-10T15:11:00
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.74s           2022-02-10T15:10:46
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.68s           2022-02-10T15:10:38
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.64s           2022-02-10T15:10:54
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.80s           2022-02-10T15:10:18
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.67s           2022-02-10T15:10:23
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.67s           2022-02-10T15:10:42
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.64s           2022-02-10T15:10:53
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.67s           2022-02-10T15:11:05
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.68s           2022-02-10T15:10:19
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.67s           2022-02-10T15:10:12
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.65s           2022-02-10T15:10:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.75s           2022-02-10T15:10:16
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.74s           2022-02-10T15:10:21
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.65s           2022-02-10T15:10:56
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.67s           2022-02-10T15:10:59
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.64s           2022-02-10T15:10:44
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.79s           2022-02-10T15:10:37
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.82s           2022-02-10T15:10:30
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.66s           2022-02-10T15:10:14
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.68s           2022-02-10T15:10:51
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.77s           2022-02-10T15:10:32
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.67s           2022-02-10T15:10:33
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.65s           2022-02-10T15:11:04
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.68s           2022-02-10T15:10:40
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.65s           2022-02-10T15:10:57
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.68s           2022-02-10T15:10:43
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.73s           2022-02-10T15:10:35
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.79s           2022-02-10T15:10:28
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.67s           2022-02-10T15:10:49
+================================================================================
+[2022-02-11 00:11:17,526] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:11:17,529] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:06:17.529907+00:00
+[2022-02-11 00:11:28,031] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:11:28,034] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:06:28.034348+00:00
+[2022-02-11 00:11:38,761] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:11:38,761] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:06:38.761755+00:00
+[2022-02-11 00:11:39,534] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.64s           2022-02-10T15:11:02
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.66s           2022-02-10T15:11:19
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.72s           2022-02-10T15:11:18
+/Users/swkim/projects/MLOps-study/airflow/dags/hello_world.py                                                                                                 1           0  0.68s           2022-02-10T15:11:33
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.67s           2022-02-10T15:11:00
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.77s           2022-02-10T15:11:39
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.68s           2022-02-10T15:10:38
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.64s           2022-02-10T15:10:54
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.75s           2022-02-10T15:11:11
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.64s           2022-02-10T15:11:16
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.67s           2022-02-10T15:10:42
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.64s           2022-02-10T15:10:53
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.67s           2022-02-10T15:11:05
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.66s           2022-02-10T15:11:13
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.66s           2022-02-10T15:11:30
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.65s           2022-02-10T15:10:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.77s           2022-02-10T15:11:09
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.65s           2022-02-10T15:11:14
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.65s           2022-02-10T15:10:56
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.67s           2022-02-10T15:10:59
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.69s           2022-02-10T15:11:37
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.79s           2022-02-10T15:10:37
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.84s           2022-02-10T15:11:23
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.66s           2022-02-10T15:11:32
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.68s           2022-02-10T15:10:51
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.66s           2022-02-10T15:11:25
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.67s           2022-02-10T15:11:27
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.65s           2022-02-10T15:11:04
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.68s           2022-02-10T15:10:40
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.65s           2022-02-10T15:10:57
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.65s           2022-02-10T15:11:35
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.65s           2022-02-10T15:11:28
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.76s           2022-02-10T15:11:21
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.67s           2022-02-10T15:10:49
+================================================================================
+[2022-02-11 00:11:49,840] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:11:49,842] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:06:49.842791+00:00
+[2022-02-11 00:12:00,049] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:12:00,051] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:07:00.051727+00:00
+[2022-02-11 00:12:10,383] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:12:10,386] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:07:10.386842+00:00
+[2022-02-11 00:12:11,046] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.65s           2022-02-10T15:11:55
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.66s           2022-02-10T15:11:19
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.72s           2022-02-10T15:11:18
+/Users/swkim/projects/MLOps-study/airflow/dags/hello_world.py                                                                                                 1           0  0.66s           2022-02-10T15:12:04
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.65s           2022-02-10T15:11:53
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.77s           2022-02-10T15:11:39
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.65s           2022-02-10T15:11:59
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.66s           2022-02-10T15:11:47
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.77s           2022-02-10T15:12:07
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.64s           2022-02-10T15:11:16
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.64s           2022-02-10T15:12:02
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.66s           2022-02-10T15:11:45
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.67s           2022-02-10T15:11:05
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.64s           2022-02-10T15:12:09
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.66s           2022-02-10T15:11:30
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.68s           2022-02-10T15:11:41
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.78s           2022-02-10T15:12:05
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.64s           2022-02-10T15:12:11
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.66s           2022-02-10T15:11:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.64s           2022-02-10T15:11:52
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.69s           2022-02-10T15:11:37
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.75s           2022-02-10T15:11:57
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.84s           2022-02-10T15:11:23
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.66s           2022-02-10T15:11:32
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.65s           2022-02-10T15:11:43
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.66s           2022-02-10T15:11:25
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.67s           2022-02-10T15:11:27
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.65s           2022-02-10T15:11:04
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.64s           2022-02-10T15:12:00
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.67s           2022-02-10T15:11:50
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.65s           2022-02-10T15:11:35
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.65s           2022-02-10T15:11:28
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.76s           2022-02-10T15:11:21
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.70s           2022-02-10T15:11:42
+================================================================================
+[2022-02-11 00:12:20,668] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:12:20,669] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:07:20.669781+00:00
+[2022-02-11 00:12:30,705] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:12:30,707] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:07:30.707819+00:00
+[2022-02-11 00:12:40,901] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:12:40,903] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:07:40.903521+00:00
+[2022-02-11 00:12:41,562] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.65s           2022-02-10T15:11:55
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.63s           2022-02-10T15:12:16
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.66s           2022-02-10T15:12:14
+/Users/swkim/projects/MLOps-study/airflow/dags/hello_world.py                                                                                                 1           0  0.65s           2022-02-10T15:12:33
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.65s           2022-02-10T15:11:53
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.73s           2022-02-10T15:12:38
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.65s           2022-02-10T15:11:59
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.66s           2022-02-10T15:11:47
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.77s           2022-02-10T15:12:07
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.66s           2022-02-10T15:12:12
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.64s           2022-02-10T15:12:02
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.66s           2022-02-10T15:11:45
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.64s           2022-02-10T15:12:28
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.64s           2022-02-10T15:12:09
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.64s           2022-02-10T15:12:29
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.65s           2022-02-10T15:12:39
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.78s           2022-02-10T15:12:05
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.64s           2022-02-10T15:12:11
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.66s           2022-02-10T15:11:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.64s           2022-02-10T15:11:52
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.65s           2022-02-10T15:12:36
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.75s           2022-02-10T15:11:57
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.74s           2022-02-10T15:12:19
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.64s           2022-02-10T15:12:31
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.65s           2022-02-10T15:11:43
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.63s           2022-02-10T15:12:21
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.64s           2022-02-10T15:12:22
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.65s           2022-02-10T15:12:26
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.64s           2022-02-10T15:12:00
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.67s           2022-02-10T15:11:50
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.67s           2022-02-10T15:12:34
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.64s           2022-02-10T15:12:24
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.74s           2022-02-10T15:12:17
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.64s           2022-02-10T15:12:41
+================================================================================
+[2022-02-11 00:12:51,024] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:12:51,025] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:07:51.025612+00:00
+[2022-02-11 00:13:01,208] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:13:01,211] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:08:01.211523+00:00
+[2022-02-11 00:13:11,708] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:13:11,710] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:08:11.710055+00:00
+[2022-02-11 00:13:12,401] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.63s           2022-02-10T15:12:55
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.63s           2022-02-10T15:12:16
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.66s           2022-02-10T15:12:14
+/Users/swkim/projects/MLOps-study/airflow/dags/hello_world.py                                                                                                 1           0  0.69s           2022-02-10T15:13:03
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.65s           2022-02-10T15:12:53
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.73s           2022-02-10T15:12:38
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.68s           2022-02-10T15:12:58
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.64s           2022-02-10T15:12:46
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.75s           2022-02-10T15:13:07
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.67s           2022-02-10T15:13:12
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.69s           2022-02-10T15:13:01
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.65s           2022-02-10T15:12:44
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.64s           2022-02-10T15:12:28
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.66s           2022-02-10T15:13:08
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.64s           2022-02-10T15:12:29
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.65s           2022-02-10T15:12:39
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.82s           2022-02-10T15:13:05
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.67s           2022-02-10T15:13:10
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.67s           2022-02-10T15:12:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.64s           2022-02-10T15:12:51
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.65s           2022-02-10T15:12:36
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.74s           2022-02-10T15:12:56
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.74s           2022-02-10T15:12:19
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.64s           2022-02-10T15:12:31
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.67s           2022-02-10T15:12:43
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.63s           2022-02-10T15:12:21
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.64s           2022-02-10T15:12:22
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.65s           2022-02-10T15:12:26
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.66s           2022-02-10T15:13:00
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.66s           2022-02-10T15:12:49
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.67s           2022-02-10T15:12:34
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.64s           2022-02-10T15:12:24
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.74s           2022-02-10T15:12:17
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.64s           2022-02-10T15:12:41
+================================================================================
+[2022-02-11 00:13:22,048] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:13:22,049] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:08:22.049840+00:00
+[2022-02-11 00:13:32,199] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:13:32,202] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:08:32.202741+00:00
+[2022-02-11 00:13:42,445] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:13:42,447] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:08:42.447737+00:00
+[2022-02-11 00:13:43,104] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.63s           2022-02-10T15:12:55
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.63s           2022-02-10T15:13:15
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.64s           2022-02-10T15:13:14
+/Users/swkim/projects/MLOps-study/airflow/dags/hello_world.py                                                                                                 1           0  0.66s           2022-02-10T15:13:32
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.65s           2022-02-10T15:12:53
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.76s           2022-02-10T15:13:38
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.68s           2022-02-10T15:12:58
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.64s           2022-02-10T15:12:46
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.75s           2022-02-10T15:13:07
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.67s           2022-02-10T15:13:12
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.69s           2022-02-10T15:13:01
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.65s           2022-02-10T15:12:44
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.70s           2022-02-10T15:13:27
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.66s           2022-02-10T15:13:08
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.66s           2022-02-10T15:13:29
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.66s           2022-02-10T15:13:39
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.82s           2022-02-10T15:13:05
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.67s           2022-02-10T15:13:10
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.67s           2022-02-10T15:12:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.64s           2022-02-10T15:12:51
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.64s           2022-02-10T15:13:36
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.74s           2022-02-10T15:12:56
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.76s           2022-02-10T15:13:19
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.64s           2022-02-10T15:13:31
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.64s           2022-02-10T15:13:43
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.68s           2022-02-10T15:13:21
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.65s           2022-02-10T15:13:22
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.65s           2022-02-10T15:13:26
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.66s           2022-02-10T15:13:00
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.66s           2022-02-10T15:12:49
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.66s           2022-02-10T15:13:34
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.65s           2022-02-10T15:13:24
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.75s           2022-02-10T15:13:17
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.66s           2022-02-10T15:13:41
+================================================================================
+[2022-02-11 00:13:52,546] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:13:52,548] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:08:52.548146+00:00
+[2022-02-11 00:14:02,761] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:14:02,763] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:09:02.763369+00:00
+[2022-02-11 00:14:13,073] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:14:13,074] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:09:13.074843+00:00
+[2022-02-11 00:14:13,728] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.63s           2022-02-10T15:13:54
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.63s           2022-02-10T15:13:15
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.63s           2022-02-10T15:14:13
+/Users/swkim/projects/MLOps-study/airflow/dags/hello_world.py                                                                                                 1           0  0.64s           2022-02-10T15:14:03
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.64s           2022-02-10T15:13:53
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.76s           2022-02-10T15:13:38
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.67s           2022-02-10T15:13:58
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.64s           2022-02-10T15:13:46
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.77s           2022-02-10T15:14:06
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.65s           2022-02-10T15:14:12
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.65s           2022-02-10T15:14:01
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.65s           2022-02-10T15:13:44
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.70s           2022-02-10T15:13:27
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.66s           2022-02-10T15:14:08
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.66s           2022-02-10T15:13:29
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.66s           2022-02-10T15:13:39
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.74s           2022-02-10T15:14:05
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.64s           2022-02-10T15:14:10
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.66s           2022-02-10T15:13:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.64s           2022-02-10T15:13:51
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.64s           2022-02-10T15:13:36
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.75s           2022-02-10T15:13:56
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.76s           2022-02-10T15:13:19
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.64s           2022-02-10T15:13:31
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.64s           2022-02-10T15:13:43
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.68s           2022-02-10T15:13:21
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.65s           2022-02-10T15:13:22
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.65s           2022-02-10T15:13:26
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.67s           2022-02-10T15:14:00
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.66s           2022-02-10T15:13:49
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.66s           2022-02-10T15:13:34
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.65s           2022-02-10T15:13:24
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.75s           2022-02-10T15:13:17
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.66s           2022-02-10T15:13:41
+================================================================================
+[2022-02-11 00:14:23,600] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:14:23,602] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:09:23.602696+00:00
+[2022-02-11 00:14:33,787] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:14:33,789] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:09:33.789047+00:00
+[2022-02-11 00:14:43,977] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:14:43,978] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:09:43.978710+00:00
+[2022-02-11 00:14:44,649] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.63s           2022-02-10T15:13:54
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.65s           2022-02-10T15:14:15
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.63s           2022-02-10T15:14:13
+/Users/swkim/projects/MLOps-study/airflow/dags/hello_world.py                                                                                                 1           0  0.66s           2022-02-10T15:14:32
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.64s           2022-02-10T15:13:53
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.74s           2022-02-10T15:14:37
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.67s           2022-02-10T15:13:58
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.64s           2022-02-10T15:13:46
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.77s           2022-02-10T15:14:06
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.65s           2022-02-10T15:14:12
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.65s           2022-02-10T15:14:01
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.65s           2022-02-10T15:14:44
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.67s           2022-02-10T15:14:27
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.66s           2022-02-10T15:14:08
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.64s           2022-02-10T15:14:29
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.65s           2022-02-10T15:14:39
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.74s           2022-02-10T15:14:05
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.64s           2022-02-10T15:14:10
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.66s           2022-02-10T15:13:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.64s           2022-02-10T15:13:51
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.65s           2022-02-10T15:14:36
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.75s           2022-02-10T15:13:56
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.76s           2022-02-10T15:14:19
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.65s           2022-02-10T15:14:31
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.66s           2022-02-10T15:14:42
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.75s           2022-02-10T15:14:20
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.75s           2022-02-10T15:14:22
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.69s           2022-02-10T15:14:26
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.67s           2022-02-10T15:14:00
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.66s           2022-02-10T15:13:49
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.65s           2022-02-10T15:14:34
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.68s           2022-02-10T15:14:24
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.78s           2022-02-10T15:14:17
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.64s           2022-02-10T15:14:41
+================================================================================
+[2022-02-11 00:14:54,137] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:14:54,140] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:09:54.140808+00:00
+[2022-02-11 00:15:04,498] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:15:04,499] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:10:04.499956+00:00
+[2022-02-11 00:15:14,852] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:15:14,855] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:10:14.855876+00:00
+[2022-02-11 00:15:15,509] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.64s           2022-02-10T15:14:54
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.63s           2022-02-10T15:15:15
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.64s           2022-02-10T15:15:13
+/Users/swkim/projects/MLOps-study/airflow/dags/hello_world.py                                                                                                 1           0  0.69s           2022-02-10T15:15:03
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.65s           2022-02-10T15:14:53
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.74s           2022-02-10T15:14:37
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.68s           2022-02-10T15:14:58
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.67s           2022-02-10T15:14:46
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.76s           2022-02-10T15:15:07
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.69s           2022-02-10T15:15:12
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.67s           2022-02-10T15:15:01
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.65s           2022-02-10T15:14:44
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.67s           2022-02-10T15:14:27
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.68s           2022-02-10T15:15:08
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.64s           2022-02-10T15:14:29
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.65s           2022-02-10T15:14:39
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.74s           2022-02-10T15:15:05
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.65s           2022-02-10T15:15:10
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.66s           2022-02-10T15:14:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.66s           2022-02-10T15:14:51
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.65s           2022-02-10T15:14:36
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.76s           2022-02-10T15:14:56
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.76s           2022-02-10T15:14:19
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.65s           2022-02-10T15:14:31
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.66s           2022-02-10T15:14:42
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.75s           2022-02-10T15:14:20
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.75s           2022-02-10T15:14:22
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.69s           2022-02-10T15:14:26
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.73s           2022-02-10T15:15:00
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.68s           2022-02-10T15:14:49
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.65s           2022-02-10T15:14:34
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.68s           2022-02-10T15:14:24
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.78s           2022-02-10T15:14:17
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.64s           2022-02-10T15:14:41
+================================================================================
+[2022-02-11 00:15:25,199] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:15:25,200] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:10:25.200922+00:00
+[2022-02-11 00:15:35,386] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:15:35,388] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:10:35.388853+00:00
+[2022-02-11 00:15:45,581] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:15:45,583] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:10:45.583190+00:00
+[2022-02-11 00:15:46,302] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.64s           2022-02-10T15:14:54
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.63s           2022-02-10T15:15:15
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.64s           2022-02-10T15:15:13
+/Users/swkim/projects/MLOps-study/airflow/dags/hello_world.py                                                                                                 1           0  0.65s           2022-02-10T15:15:32
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.65s           2022-02-10T15:14:53
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.75s           2022-02-10T15:15:37
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.68s           2022-02-10T15:14:58
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.70s           2022-02-10T15:15:46
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.76s           2022-02-10T15:15:07
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.69s           2022-02-10T15:15:12
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.67s           2022-02-10T15:15:01
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.66s           2022-02-10T15:15:44
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.74s           2022-02-10T15:15:27
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.68s           2022-02-10T15:15:08
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.65s           2022-02-10T15:15:29
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.66s           2022-02-10T15:15:39
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.74s           2022-02-10T15:15:05
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.65s           2022-02-10T15:15:10
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.66s           2022-02-10T15:14:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.66s           2022-02-10T15:14:51
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.65s           2022-02-10T15:15:36
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.76s           2022-02-10T15:14:56
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.79s           2022-02-10T15:15:19
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.64s           2022-02-10T15:15:31
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.64s           2022-02-10T15:15:42
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.67s           2022-02-10T15:15:20
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.66s           2022-02-10T15:15:22
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.67s           2022-02-10T15:15:25
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.73s           2022-02-10T15:15:00
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.68s           2022-02-10T15:14:49
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.63s           2022-02-10T15:15:34
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.67s           2022-02-10T15:15:24
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.74s           2022-02-10T15:15:17
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.64s           2022-02-10T15:15:41
+================================================================================
+[2022-02-11 00:15:55,885] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:15:55,886] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:10:55.886795+00:00
+[2022-02-11 00:16:02,395] {manager.py:653} INFO - Searching for files in /Users/swkim/projects/MLOps-study/airflow/dags
+[2022-02-11 00:16:02,419] {manager.py:656} INFO - There are 35 files in /Users/swkim/projects/MLOps-study/airflow/dags
+[2022-02-11 00:16:06,130] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:16:06,131] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:11:06.131696+00:00
+[2022-02-11 00:16:16,397] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:16:16,401] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:11:16.401093+00:00
+[2022-02-11 00:16:17,073] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.63s           2022-02-10T15:15:54
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.65s           2022-02-10T15:16:17
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.68s           2022-02-10T15:16:15
+/Users/swkim/projects/MLOps-study/airflow/dags/hello_world.py                                                                                                 1           0  0.67s           2022-02-10T15:16:05
+/Users/swkim/projects/MLOps-study/airflow/dags/dag_test.py                                                                                                    1           0  0.98s           2022-02-10T15:16:03
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.69s           2022-02-10T15:15:53
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.75s           2022-02-10T15:15:37
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.66s           2022-02-10T15:15:58
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.70s           2022-02-10T15:15:46
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.74s           2022-02-10T15:16:08
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.65s           2022-02-10T15:16:13
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.64s           2022-02-10T15:16:01
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.66s           2022-02-10T15:15:44
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.74s           2022-02-10T15:15:27
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.73s           2022-02-10T15:16:10
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.65s           2022-02-10T15:15:29
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.66s           2022-02-10T15:15:39
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.75s           2022-02-10T15:16:06
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.73s           2022-02-10T15:16:12
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.74s           2022-02-10T15:15:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.67s           2022-02-10T15:15:51
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.65s           2022-02-10T15:15:36
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.75s           2022-02-10T15:15:56
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.79s           2022-02-10T15:15:19
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.64s           2022-02-10T15:15:31
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.64s           2022-02-10T15:15:42
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.67s           2022-02-10T15:15:20
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.66s           2022-02-10T15:15:22
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.67s           2022-02-10T15:15:25
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.66s           2022-02-10T15:16:00
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.68s           2022-02-10T15:15:49
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.63s           2022-02-10T15:15:34
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.67s           2022-02-10T15:15:24
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.74s           2022-02-10T15:15:17
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.64s           2022-02-10T15:15:41
+================================================================================
+[2022-02-11 00:16:26,939] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:16:26,941] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:11:26.941435+00:00
+[2022-02-11 00:16:37,130] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:16:37,132] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:11:37.132531+00:00
+[2022-02-11 00:16:47,374] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:16:47,376] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:11:47.376569+00:00
+[2022-02-11 00:16:48,032] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.63s           2022-02-10T15:15:54
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.65s           2022-02-10T15:16:17
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.68s           2022-02-10T15:16:15
+/Users/swkim/projects/MLOps-study/airflow/dags/hello_world.py                                                                                                 1           0  0.66s           2022-02-10T15:16:36
+/Users/swkim/projects/MLOps-study/airflow/dags/dag_test.py                                                                                                    1           0  0.65s           2022-02-10T15:16:34
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.69s           2022-02-10T15:15:53
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.75s           2022-02-10T15:16:41
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.66s           2022-02-10T15:15:58
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.70s           2022-02-10T15:15:46
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.74s           2022-02-10T15:16:08
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.65s           2022-02-10T15:16:13
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.64s           2022-02-10T15:16:01
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.64s           2022-02-10T15:16:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.66s           2022-02-10T15:16:29
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.73s           2022-02-10T15:16:10
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.66s           2022-02-10T15:16:31
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.66s           2022-02-10T15:16:42
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.75s           2022-02-10T15:16:06
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.73s           2022-02-10T15:16:12
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.74s           2022-02-10T15:15:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.67s           2022-02-10T15:15:51
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.67s           2022-02-10T15:16:39
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.75s           2022-02-10T15:15:56
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.86s           2022-02-10T15:16:20
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.69s           2022-02-10T15:16:32
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.65s           2022-02-10T15:16:46
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.71s           2022-02-10T15:16:22
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.68s           2022-02-10T15:16:24
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.66s           2022-02-10T15:16:27
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.66s           2022-02-10T15:16:00
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.68s           2022-02-10T15:15:49
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.65s           2022-02-10T15:16:37
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.67s           2022-02-10T15:16:25
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.78s           2022-02-10T15:16:18
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.68s           2022-02-10T15:16:44
+================================================================================
+[2022-02-11 00:16:57,465] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:16:57,467] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:11:57.467100+00:00
+[2022-02-11 00:17:07,657] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:17:07,659] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:12:07.659398+00:00
+[2022-02-11 00:17:18,281] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:17:18,283] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:12:18.283232+00:00
+[2022-02-11 00:17:18,925] {manager.py:774} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                            PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-----------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor_config.py                                0           0  0.64s           2022-02-10T15:16:58
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/plugins/workday.py                                                   0           0  0.65s           2022-02-10T15:16:17
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py                                                    0           0  0.63s           2022-02-10T15:17:18
+/Users/swkim/projects/MLOps-study/airflow/dags/hello_world.py                                                                                                 1           0  0.71s           2022-02-10T15:17:08
+/Users/swkim/projects/MLOps-study/airflow/dags/dag_test.py                                                                                                    1           0  0.66s           2022-02-10T15:17:06
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only.py                                               1           0  0.64s           2022-02-10T15:16:56
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group_decorator.py                                      1           0  0.75s           2022-02-10T15:16:41
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_complex.py                                                   1           0  0.66s           2022-02-10T15:17:01
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py                                           1           0  0.66s           2022-02-10T15:16:49
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl.py                                         1           0  0.75s           2022-02-10T15:17:12
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/test_utils.py                                                        1           0  0.73s           2022-02-10T15:17:17
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_bash_operator.py                                             1           0  0.64s           2022-02-10T15:17:04
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_short_circuit_operator.py                                    1           0  0.64s           2022-02-10T15:16:48
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_operator.py                                           1           0  0.66s           2022-02-10T15:16:29
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_etl_dag.py                                                  1           0  0.74s           2022-02-10T15:17:13
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_labels.py                                             1           0  0.66s           2022-02-10T15:16:31
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_task_group.py                                                1           0  0.66s           2022-02-10T15:16:42
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial_taskflow_api_etl_virtualenv.py                              1           0  0.83s           2022-02-10T15:17:10
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/tutorial.py                                                          1           0  0.67s           2022-02-10T15:17:15
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                           1           0  0.66s           2022-02-10T15:16:51
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                                  1           0  0.65s           2022-02-10T15:16:54
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py                                   1           0  0.67s           2022-02-10T15:16:39
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_dag_decorator.py                                             1           0  0.74s           2022-02-10T15:16:59
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcom.py                                                      1           0  0.86s           2022-02-10T15:16:20
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py                               1           0  0.69s           2022-02-10T15:16:32
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_skip_dag.py                                                  1           0  0.65s           2022-02-10T15:16:46
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py                                        1           0  0.71s           2022-02-10T15:16:22
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_kubernetes_executor.py                                       1           0  0.68s           2022-02-10T15:16:24
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                              1           0  0.66s           2022-02-10T15:16:27
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_branch_datetime_operator.py                                  1           0  0.65s           2022-02-10T15:17:03
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_nested_branch_dag.py                                         1           0  0.64s           2022-02-10T15:16:53
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_controller_dag.py                                    1           0  0.65s           2022-02-10T15:16:37
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.67s           2022-02-10T15:16:25
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_xcomargs.py                                                  2           0  0.78s           2022-02-10T15:16:18
+/Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.68s           2022-02-10T15:16:44
+================================================================================
+[2022-02-11 00:17:28,662] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:17:28,664] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:12:28.664673+00:00
+[2022-02-11 00:17:38,710] {manager.py:1051} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-02-11 00:17:38,711] {manager.py:1055} INFO - Failing jobs without heartbeat after 2022-02-10 15:12:38.711847+00:00
