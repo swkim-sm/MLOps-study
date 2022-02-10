@@ -63,3 +63,8 @@
 [2022-02-11 00:17:18,837] {logging_mixin.py:109} INFO - [2022-02-11 00:17:18,837] {dagbag.py:500} INFO - Filling up the DagBag from /Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
 [2022-02-11 00:17:18,850] {processor.py:634} WARNING - No viable dags retrieved from /Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
 [2022-02-11 00:17:18,851] {processor.py:171} INFO - Processing /Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.015 seconds
+[2022-02-11 00:18:21,690] {processor.py:163} INFO - Started process (PID=29004) to work on /Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-02-11 00:18:21,690] {processor.py:620} INFO - Processing file /Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2022-02-11 00:18:21,690] {logging_mixin.py:109} INFO - [2022-02-11 00:18:21,690] {dagbag.py:500} INFO - Filling up the DagBag from /Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-02-11 00:18:21,701] {processor.py:634} WARNING - No viable dags retrieved from /Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py
+[2022-02-11 00:18:21,702] {processor.py:171} INFO - Processing /Users/swkim/projects/MLOps-study/.venv/lib/python3.9/site-packages/airflow/example_dags/subdags/subdag.py took 0.012 seconds
